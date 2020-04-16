@@ -11,7 +11,7 @@ class App extends React.Component {
   }
 
   componentWillMount() {
-    var url = 'http://newsapi.org/v2/everything?' +
+    var url = '/v2/everything?' +
           'q=Sustainability&' +
           'sortBy=popularity&' +
           'apiKey=8cf61293b6c6493a875aa43562e078bb';
